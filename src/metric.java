@@ -18,6 +18,7 @@ public class metric {
         {
             //input to make meters variable correct
             meters = in.nextDouble();
+            in.nextLine();
         }
         else
         {
