@@ -12,13 +12,16 @@ public class metric {
         String wrongInput;
         Scanner in = new Scanner(System.in);
 
+        //input prompt
         System.out.println("Enter measurement in meters ");
         if (in.hasNextDouble())
         {
+            //input to make meters variable correct
             meters = in.nextDouble();
         }
         else
         {
+            //wrong input statement
             wrongInput = in.nextLine();
             System.out.println("You said the measurement was " + wrongInput);
             System.out.println("Run the program again and enter correct measurement in numbers only");
@@ -30,7 +33,7 @@ public class metric {
         feet = meters * 3.28;
         miles = meters / 1609.344;
 
-        //
+        //fixed output to certian decimal places
         System.out.printf("inches = %.2f\n", + inches);
         System.out.printf("feet = %.2f\n", + feet);
         System.out.printf("Miles = %.4f\n", + miles);
