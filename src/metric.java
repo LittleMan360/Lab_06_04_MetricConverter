@@ -25,16 +25,15 @@ public class metric {
             System.exit(0);//terminates program
         }
 
-        //figured 1 meter = 39.36 inches
+        //found out 1 meter = 39.36 inches
         inches = meters * 39.36;
         feet = meters * 3.28;
         miles = meters / 1609.344;
 
-
-        System.out.println(meters + " meters = " + inches + " inches");
-        System.out.println(meters + " meters = " + feet + " feet");
-        System.out.println(meters + " meters = " + miles + " miles");
-
+        //
+        System.out.printf("inches = %.4f\n", + inches);
+        System.out.printf("feet = %.4f\n", + feet);
+        System.out.printf("Miles = %.4f\n", + miles);
 
     }
 }
