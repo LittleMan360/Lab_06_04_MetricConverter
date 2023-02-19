@@ -31,8 +31,8 @@ public class metric {
         miles = meters / 1609.344;
 
         //
-        System.out.printf("inches = %.4f\n", + inches);
-        System.out.printf("feet = %.4f\n", + feet);
+        System.out.printf("inches = %.2f\n", + inches);
+        System.out.printf("feet = %.2f\n", + feet);
         System.out.printf("Miles = %.4f\n", + miles);
 
     }
