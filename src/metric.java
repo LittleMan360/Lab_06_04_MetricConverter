@@ -20,7 +20,6 @@ public class metric {
         else
         {
             wrongInput = in.nextLine();
-            in.nextLine();
             System.out.println("You said the measurement was " + wrongInput);
             System.out.println("Run the program again and enter correct measurement in numbers only");
             System.exit(0);//terminates program
